@@ -1,0 +1,62 @@
+
+
+div.gallery{
+	float:left;
+	width:180px;
+	margin:5px;
+	border:2px solid white;
+}
+.gallery:hover{
+	border:2px solid black;
+}
+div.gallery img{
+	width:100%;
+	height:auto;
+
+}
+.des{
+	pdding:15px;
+	text-align: center;
+	background-color:white;
+}
+body{
+   background-image: url("photo1.jpg"); 
+   height:300px;
+   background-repeat:no-repeat;
+   background-size:1400px 950px;
+}
+.footer{
+	background-color:#EEE8AA; 
+}
+.footer h5{
+	color:red;
+    padding:20px 40px;
+}
+header h2{
+	margin-left: 20px;
+	font-style: italic;
+	font-variant: small-caps;
+	color:red;
+	text-align: center;
+	font-weight: bolder;
+}
+.menu {
+	margin-left:0px;
+}
+.menu li{
+	display:inline;
+}
+.menu li a{
+	margin-right:-2px;
+	padding: 13px 54px;
+	background-color:#EEE8AA;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	font-family: "Times";
+	text-decoration: none;
+	white-space:scroll;
+}
+.menu li a:hover{
+	background-color: #BDB76B;
+}
